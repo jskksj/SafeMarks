@@ -1,6 +1,6 @@
 import pytest
 
-from safemarks.core.normalization import normalize_scheme
+from core.normalize_scheme import normalize_scheme
 
 @pytest.mark.parametrize(
     "input_url, expected_url",
